@@ -1,9 +1,94 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ragavendran RM - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
+    <html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ragavendran RM - Portfolio</title>
+  <link rel="stylesheet" href="./style.css"/>
+  <script src="./script.js"></script>
+  <style>
+    /* Add your responsive styles here */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      padding: 20px 0;
+    }
+
+    .profile_image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .all_skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .skill {
+      width: 150px;
+      text-align: center;
+      margin: 10px;
+    }
+
+    .skill img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .project-card {
+      width: 300px;
+      text-align: center;
+      margin: 20px;
+    }
+
+    .recommendation {
+      margin-bottom: 20px;
+    }
+
+    .iconbutton {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+  </style>
+
   </head>
   <body>
     <!-- Navigation Bar -->
