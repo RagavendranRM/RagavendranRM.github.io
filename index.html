@@ -1,200 +1,12 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <html lang="en">
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ragavendran RM - Portfolio</title>
   <link rel="stylesheet" href="./style.css"/>
   <script src="./script.js"></script>
   <style>
-    /* Responsive Styles */
-/* Responsive Styles */
-
-/* Small Screens */
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-
-  #home {
-    padding-top: 1cm;
-    padding-bottom: 1cm;
-  }
-
-  .profile_name {
-    padding-left: 1cm;
-  }
-
-  .topdiv {
-    padding-right: 0.5cm;
-  }
-
-  .topmenu {
-    font-size: 16px;
-    padding: 15px;
-  }
-
-  #about-me h1 {
-    font-size: 40px;
-    margin-top: 60px;
-  }
-
-  #about-me p {
-    font-size: 18px;
-  }
-
-  .profile_image {
-    width: 100%;
-  }
-
-  .skill {
-    width: 100%;
-    margin: 20px 0;
-  }
-
-  .projects-container {
-    margin-left: 20px;
-  }
-
-  .project-card h3,
-  .project-card li {
-    font-size: 20px;
-    margin-left: 20px;
-  }
-
-  .recommendation {
-    width: 100%;
-    font-size: 16px;
-    margin: 10px 0;
-  }
-
-  .popup {
-    width: 80%;
-  }
-
-  fieldset {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  button {
-    width: 100%;
-    margin: 20px 0;
-  }
-}
-
-/* Medium Screens */
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
-  #about-me h1 {
-    font-size: 55px;
-    margin-top: 80px;
-  }
-
-  #about-me p {
-    font-size: 22px;
-  }
-
-  .profile_image {
-    width: 70%;
-  }
-
-  .skill {
-    width: calc(50% - 40px);
-    margin: 20px;
-  }
-
-  .projects-container {
-    margin-left: 40px;
-  }
-
-  .project-card h3,
-  .project-card li {
-    font-size: 22px;
-    margin-left: 30px;
-  }
-
-  .recommendation {
-    width: 48%;
-    font-size: 18px;
-    margin: 10px;
-  }
-
-  .iconbutton {
-    width: 40px;
-    height: 40px;
-  }
-
-  .popup {
-    width: 60%;
-  }
-
-  fieldset {
-    width: 60%;
-  }
-
-  button {
-    width: 40%;
-    margin: 20px 0;
-  }
-}
-
-/* Large Screens */
-@media only screen and (min-width: 1201px) {
-  #about-me h1 {
-    font-size: 65px;
-    margin-top: 90px;
-  }
-
-  #about-me p {
-    font-size: 25px;
-  }
-
-  .profile_image {
-    width: 550px;
-  }
-
-  .skill {
-    width: calc(25% - 40px);
-    margin: 20px;
-  }
-
-  .projects-container {
-    margin-left: 60px;
-  }
-
-  .project-card h3,
-  .project-card li {
-    font-size: 25px;
-    margin-left: 30px;
-  }
-
-  .recommendation {
-    width: 30%;
-    font-size: 20px;
-    margin: 10px;
-  }
-
-  .iconbutton {
-    width: 60px;
-    height: 60px;
-  }
-
-  .popup {
-    width: 400px;
-  }
-
-  fieldset {
-    width: 50%;
-  }
-
-  button {
-    width: 50%;
-    margin: 20px 0;
-  }
-}
-
-
     body {
       font-family: 'Arial', sans-serif;
       margin: 0;
@@ -273,216 +85,375 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       text-align: center;
     }
-  </style>
 
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-          Ragavendran RM
-          <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+    /* Responsive Styles */
+    /* Small Screens */
+    @media only screen and (max-width: 600px) {
+      body {
+        font-size: 14px;
+      }
+
+      #home {
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+      }
+
+      .profile_name {
+        padding-left: 1cm;
+      }
+
+      .topdiv {
+        padding-right: 0.5cm;
+      }
+
+      .topmenu {
+        font-size: 16px;
+        padding: 15px;
+      }
+
+      #about-me h1 {
+        font-size: 40px;
+        margin-top: 60px;
+      }
+
+      #about-me p {
+        font-size: 18px;
+      }
+
+      .profile_image {
+        width: 100%;
+      }
+
+      .skill {
+        width: 100%;
+        margin: 20px 0;
+      }
+
+      .projects-container {
+        margin-left: 20px;
+      }
+
+      .project-card h3,
+      .project-card li {
+        font-size: 20px;
+        margin-left: 20px;
+      }
+
+      .recommendation {
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0;
+      }
+
+      .popup {
+        width: 80%;
+      }
+
+      fieldset {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      button {
+        width: 100%;
+        margin: 20px 0;
+      }
+    }
+
+    /* Medium Screens */
+    @media only screen and (min-width: 601px) and (max-width: 1200px) {
+      #about-me h1 {
+        font-size: 55px;
+        margin-top: 80px;
+      }
+
+      #about-me p {
+        font-size: 22px;
+      }
+
+      .profile_image {
+        width: 70%;
+      }
+
+      .skill {
+        width: calc(50% - 40px);
+        margin: 20px;
+      }
+
+      .projects-container {
+        margin-left: 40px;
+      }
+
+      .project-card h3,
+      .project-card li {
+        font-size: 22px;
+        margin-left: 30px;
+      }
+
+      .recommendation {
+        width: 48%;
+        font-size: 18px;
+        margin: 10px;
+      }
+
+      .iconbutton {
+        width: 40px;
+        height: 40px;
+      }
+
+      .popup {
+        width: 60%;
+      }
+
+      fieldset {
+        width: 60%;
+      }
+
+      button {
+        width: 40%;
+        margin: 20px 0;
+      }
+    }
+
+    /* Large Screens */
+    @media only screen and (min-width: 1201px) {
+      #about-me h1 {
+        font-size: 65px;
+        margin-top: 90px;
+      }
+
+      #about-me p {
+        font-size: 25px;
+      }
+
+      .profile_image {
+        width: 550px;
+      }
+
+      .skill {
+        width: calc(25% - 40px);
+        margin: 20px;
+      }
+
+      .projects-container {
+        margin-left: 60px;
+      }
+
+      .project-card h3,
+      .project-card li {
+        font-size: 25px;
+        margin-left: 30px;
+      }
+
+      .recommendation {
+        width: 30%;
+        font-size: 20px;
+        margin: 10px;
+      }
+
+      .iconbutton {
+        width: 60px;
+        height: 60px;
+      }
+
+      .popup {
+        width: 400px;
+      }
+
+      fieldset {
+        width: 50%;
+      }
+
+      button {
+        width: 50%;
+        margin: 20px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div id="home">
+      <div class="profile_name">
+        Ragavendran RM
+        <div class="contact_info">
+          <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
           rameshagavendran1@mail.com
         </div>
         <div style="clear:both;"></div>
         <div class="contact_info">
           <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
           +918838633196
-
         </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Other Fields</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-
-        </div>
-      </div>    
-    </nav>
-
-    <!-- About Me -->
-    <section id="about-me" class="container">
-      <div>
-        <img src="html_finalprojimages/ragav.jpg" class="profile_image"/>
       </div>
-
-      <div>
-          <h1>
-            Hi, I'm Ragavendran RM <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
-          </h1>
-          <p>
-            I am Ragavendran RM, a highly motivated Electronics and Communication Engineering graduate from PSG Institute of Technology and Applied Research. Currently holding a CGPA of 8.86, my academic journey reflects my dedication to excellence. My passion lies in embedded systems, web/app development, and digital and analog electronics. Proficient in programming languages such as C/C++, Python, and tools like MATLAB, Arduino IDE, and Android Studio, I've showcased my technical prowess through diverse projects. These include an electronic instruments tester and an expense tracker using Python, demonstrating a blend of technical expertise and creative problem-solving. Actively participating in workshops, conferences, and hackathons, I've earned accolades for my achievements. As an executive member of the ECE association and class representative, my dedication to my field is evident. My communication skills, coupled with proficiency in languages such as Tamil, English, Marathi, Kannada, and Hindi, contribute to my effectiveness as a promising engineer in the tech domain.
-          </p>
+      <div class="topdiv">
+        <a class="topmenu" href="#about-me">About Me</a>
+        <a class="topmenu" href="#skills">Skills</a>
+        <a class="topmenu" href="#projects">Projects</a>
+        <a class="topmenu" href="#recommendations">Other Fields</a>
       </div>
-    </section>
-              
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div style="clear:both;"></div>
-
-      <div class="all_skills">
-        <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
-          <h6>HTML</h6>
-          <p></p>
-        </div>  
-
-        <div class="skill">
-          <img src="html_finalprojimages/python.jpeg"/>
-          <h6>Python</h6>
-          <p></p>
-        </div>  
-        <div class="skill">
-          <img src="html_finalprojimages/cc.png"/>
-          <h6>C/C++</h6>
-          <p></p>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages/verilog.png"/>
-          <h6>Verilog/Vivado</h6>
-          <p></p>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages/pspice.png"/>
-          <h6>Spice Environments</h6>
-          <p></p>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages/kicad.jpeg"/>
-          <h6>Kicad/Esim</h6>
-          <p></p>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages/androidstudio.png"/>
-          <h6>Android studio</h6>
-          <p></p>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages/arduino.png"/>
-          <h6>Arduino</h6>
-          <p></p>
-        </div>
-        <!-- Add more skills here -->
-
-
-      </div>
-    </section>
-          
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>
-        Projects
-      </h2>
-      <div style="clear:both;"></div>
-
-        <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>Electronis Components tester</h3>
-            <ul>
-              <li>An Embedded product that can be used to test any the electrical components through a known resistance. This 
-                project is a sensor less project which mainly uses some circuit logic and formulae like ohm's law, KVL, KCL etc....
-                </li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Xray Classifier</h3>
-            <ul>
-              <li>An webpage Interface used to match the uploaded Xray image with the available dataset to classify the 
-                abnormalities in the xray</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Expense Tracker</h3>
-            <ul>
-              <li>An application that stores Expenditure over a Span of time. This is a simple expense tracker that consists of a 
-                elaborate storage of various expenses and provides you a graph of various types of expenses.</li>
-            </ul>
-          </div>
-          <div class="project-card">
-            <h3>Cabin Monitor</h3>
-            <ul>
-              <li>A application of Arduino that comprises of a microcontroller board Esp 32 integrated with the sensors and placed 
-                in the cabin of a truck that has a dashboard displaying the vitals of the driver to ensure is working safety.
-                </li>
-            </ul>
-          </div>
-          <div class="project-card">
-            <h3>Agriconnect</h3>
-            <ul>
-              <li>It is a application interface created for the purpose of connectivity among the farmers within India for better 
-                communication, Help requirements, knowledge purposes and trading window within the interface itself</li>
-            </ul>
-          </div>
     </div>
-    </section>
+  </nav>
+
+  <!-- About Me -->
+  <section id="about-me" class="container">
+    <div>
+      <img src="html_finalprojimages/ragav.jpg" class="profile_image"/>
+    </div>
+    <div>
+      <h1>
+        Hi, I'm Ragavendran RM <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+      </h1>
+      <p>
+        I am Ragavendran RM, a highly motivated Electronics and Communication Engineering graduate from PSG Institute of Technology and Applied Research. Currently holding a CGPA of 8.86, my academic journey reflects my dedication to excellence. My passion lies in embedded systems, web/app development, and digital and analog electronics. Proficient in programming languages such as C/C++, Python, and tools like MATLAB, Arduino IDE, and Android Studio, I've showcased my technical prowess through diverse projects. These include an electronic instruments tester and an expense tracker using Python, demonstrating a blend of technical expertise and creative problem-solving. Actively participating in workshops, conferences, and hackathons, I've earned accolades for my achievements. As an executive member of the ECE association and class representative, my dedication to my field is evident. My communication skills, coupled with proficiency in languages such as Tamil, English, Marathi, Kannada, and Hindi, contribute to my effectiveness as a promising engineer in the tech domain.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
     <div style="clear:both;"></div>
-
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Other Fields</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Interests:•	Embedded Systems
-          •	Web/App development
-          •	Communication Systems
-          •	Digital Electronics
-          •	Analog Electronics
-           
-          Hobbies:Reading, Cricket, Chess, Drawing, Photography, Listening to Music.
-
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Links:
-          LinkdeIn:www.linkedin.com/in/ragavendran-ramesh-703681225
-          GitHub:https://github.com/RagavendranRM
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Motto: "Dont Look for good, Demand Great!!"
-          <span>&#8221;</span>
-        </div>
+    <div class="all_skills">
+      <div class="skill">
+        <img src="html_finalprojimages/html5.png"/>
+        <h6>HTML</h6>
+        <p></p>
+      </div>  
+      <div class="skill">
+        <img src="html_finalprojimages/python.jpeg"/>
+        <h6>Python</h6>
+        <p></p>
+      </div>  
+      <div class="skill">
+        <img src="html_finalprojimages/cc.png"/>
+        <h6>C/C++</h6>
+        <p></p>
       </div>
-    </section>
-
- <!--
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
+      <div class="skill">
+        <img src="html_finalprojimages/verilog.png"/>
+        <h6>Verilog/Vivado</h6>
+        <p></p>
       </div>
-    </section>
+      <div class="skill">
+        <img src="html_finalprojimages/pspice.png"/>
+        <h6>Spice Environments</h6>
+        <p></p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/kicad.jpeg"/>
+        <h6>Kicad/Esim</h6>
+        <p></p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/androidstudio.png"/>
+        <h6>Android studio</h6>
+        <p></p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/arduino.png"/>
+        <h6>Arduino</h6>
+        <p></p>
+      </div>
+      <!-- Add more skills here -->
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div style="clear:both;"></div>
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>Electronis Components tester</h3>
+        <ul>
+          <li>An Embedded product that can be used to test any the electrical components through a known resistance. This project is a sensor less project which mainly uses some circuit logic and formulae like ohm's law, KVL, KCL etc....
+          </li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Xray Classifier</h3>
+        <ul>
+          <li>An webpage Interface used to match the uploaded Xray image with the available dataset to classify the abnormalities in the xray</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Expense Tracker</h3>
+        <ul>
+          <li>An application that stores Expenditure over a Span of time. This is a simple expense tracker that consists of a elaborate storage of various expenses and provides you a graph of various types of expenses.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <h3>Cabin Monitor</h3>
+        <ul>
+          <li>A application of Arduino that comprises of a microcontroller board Esp 32 integrated with the sensors and placed in the cabin of a truck that has a dashboard displaying the vitals of the driver to ensure is working safety.
+          </li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <h3>Agriconnect</h3>
+        <ul>
+          <li>It is a application interface created for the purpose of connectivity among the farmers within India for better communication, Help requirements, knowledge purposes and trading window within the interface itself</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div style="clear:both;"></div>
+
+  <!-- Recommendations -->
+  <section id="recommendations">
+    <h2>Other Fields</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Interests:• Embedded Systems • Web/App development • Communication Systems • Digital Electronics • Analog Electronics
+        Hobbies:Reading, Cricket, Chess, Drawing, Photography, Listening to Music.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Links: LinkdeIn:www.linkedin.com/in/ragavendran-ramesh-703681225 GitHub:https://github.com/RagavendranRM
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Motto: "Dont Look for good, Demand Great!!"
+        <span>&#8221;</span>
+      </div>
+    </div>
+  </section>
+
+  <!--
+  <section id="contact">
+    <div class="flex_center">
+      <fieldset>
+        <legend class="introduction">Leave a Recommendation</legend>          
+        <input type="text" placeholder="Name (Optional)"> <br/>
+        <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+        <div class="flex_center">
+          <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+        </div>
+      </fieldset>
+    </div>
+  </section>
   -->
-    <div class="iconbutton">
-      <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-      </a>
-    </div>
+  <div class="iconbutton">
+    <a href="#home">
+      <!--Add the code here for the logo to appear and the icon to be actionable-->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    </a>
+  </div>
 
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
-      <button onclick="showPopup(false)">Ok</button>
-    </div>
-  </body>
+  <div class="popup" id="popup" class="flex_center">
+    <img src="html_finalprojimages/checkmark--outline.svg"/>
+    <h3><!-- Add appropriate text here--></h3>
+    <button onclick="showPopup(false)">Ok</button>
+  </div>
+</body>
 </html>
