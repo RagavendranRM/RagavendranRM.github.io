@@ -9,51 +9,191 @@
   <script src="./script.js"></script>
   <style>
     /* Responsive Styles */
+/* Responsive Styles */
+
+/* Small Screens */
 @media only screen and (max-width: 600px) {
-  /* Styles for small screens */
   body {
     font-size: 14px;
   }
 
-  .profile_image {
-    max-width: 100%;
-    height: auto;
+  #home {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
   }
 
-  .all_skills {
-    flex-direction: column;
+  .profile_name {
+    padding-left: 1cm;
+  }
+
+  .topdiv {
+    padding-right: 0.5cm;
+  }
+
+  .topmenu {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  #about-me h1 {
+    font-size: 40px;
+    margin-top: 60px;
+  }
+
+  #about-me p {
+    font-size: 18px;
+  }
+
+  .profile_image {
+    width: 100%;
   }
 
   .skill {
     width: 100%;
+    margin: 20px 0;
   }
 
   .projects-container {
-    flex-direction: column;
+    margin-left: 20px;
   }
 
-  .project-card {
-    width: 100%;
+  .project-card h3,
+  .project-card li {
+    font-size: 20px;
+    margin-left: 20px;
   }
 
   .recommendation {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-  /* Styles for medium screens */
-  body {
+    width: 100%;
     font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .popup {
+    width: 80%;
+  }
+
+  fieldset {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  button {
+    width: 100%;
+    margin: 20px 0;
   }
 }
 
-@media only screen and (min-width: 901px) {
-  /* Styles for large screens */
-  body {
+/* Medium Screens */
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  #about-me h1 {
+    font-size: 55px;
+    margin-top: 80px;
+  }
+
+  #about-me p {
+    font-size: 22px;
+  }
+
+  .profile_image {
+    width: 70%;
+  }
+
+  .skill {
+    width: calc(50% - 40px);
+    margin: 20px;
+  }
+
+  .projects-container {
+    margin-left: 40px;
+  }
+
+  .project-card h3,
+  .project-card li {
+    font-size: 22px;
+    margin-left: 30px;
+  }
+
+  .recommendation {
+    width: 48%;
     font-size: 18px;
+    margin: 10px;
+  }
+
+  .iconbutton {
+    width: 40px;
+    height: 40px;
+  }
+
+  .popup {
+    width: 60%;
+  }
+
+  fieldset {
+    width: 60%;
+  }
+
+  button {
+    width: 40%;
+    margin: 20px 0;
   }
 }
+
+/* Large Screens */
+@media only screen and (min-width: 1201px) {
+  #about-me h1 {
+    font-size: 65px;
+    margin-top: 90px;
+  }
+
+  #about-me p {
+    font-size: 25px;
+  }
+
+  .profile_image {
+    width: 550px;
+  }
+
+  .skill {
+    width: calc(25% - 40px);
+    margin: 20px;
+  }
+
+  .projects-container {
+    margin-left: 60px;
+  }
+
+  .project-card h3,
+  .project-card li {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  .recommendation {
+    width: 30%;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .iconbutton {
+    width: 60px;
+    height: 60px;
+  }
+
+  .popup {
+    width: 400px;
+  }
+
+  fieldset {
+    width: 50%;
+  }
+
+  button {
+    width: 50%;
+    margin: 20px 0;
+  }
+}
+
 
     body {
       font-family: 'Arial', sans-serif;
